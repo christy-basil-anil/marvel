@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+}
+
+.heading{
+    text-align: center;
+    font-family: "IBM Plex Serif", serif;
+    font-size: 150px;
+    top: 50%;
+    color:white;
+    height:400;
+    background-image:url(https://www.komar.de/media/cms/fileadmin/user_upload/Category/Fototapeten/Marvel/komar-fototapeten-marvel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover,contain;
+    
+}
+
+.htext{
+    padding: 90px;
+    align-items: center;
+    font-size: 200px;
+}    
+
+.ibm-plex-serif-regular {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.list{
+    
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.bt{
+    align-items: center;
+    margin-left: 35px;
+}
+
+
+li{
+    margin-right: 15px;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+main{
+    padding: 25px;
+    position: relative;
+}
+
+p{
+    font-size: 20px;
+}
+
+.p1{
+    margin-right: 50px;
+}
+
+
+.home{
+    text-align: center;
+    font-family: "IBM Plex Serif", serif;
+    font-size: 150px;
+    top: 50%;
+    color:white;
+    height:400;
+    background-image:url(https://static1.srcdn.com/wordpress/wp-content/uploads/2021/01/Wakanda-Citadel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover,contain;
+}
+
+.movies{
+    text-align: center;
+    font-family: "IBM Plex Serif", serif;
+    font-size: 150px;
+    top: 50%;
+    color:white;
+    height:400;
+    background-image:url(https://static1.srcdn.com/wordpress/wp-content/uploads/wm/2023/06/mcu-original-avengers-importance-ranked.jpg?q=70&fit=crop&w=1140&h=&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% -80px;
+}
+
+.com{
+    text-align: center;
+    font-family: "IBM Plex Serif", serif;
+    font-size: 150px;
+    top: 50%;
+    color:white;
+    height:400;
+    background-image:url(https://cdn.marvel.com/u/prod/marvel/i/mg/c/80/567065cfebad5/clean.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% -660px;
+}
+
+.about{
+    text-align: center;
+    font-family: "IBM Plex Serif", serif;
+    font-size: 150px;
+    top: 50%;
+    color:white;
+    height:400;
+    background-image:url(https://static1.srcdn.com/wordpress/wp-content/uploads/2024/03/loki-sat-among-branching-timelines-at-the-end-of-loki-season-2.jpg?q=70&fit=crop&w=750&h=422&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover,contain;
+    background-position: 0% -150px;
+}
+
+.mflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+    position: relative;
+
+}
+
+.mgrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap:100px ;
+    row-gap: 50px;
+    
+}
+
+.detail{
+    position: absolute; 
+    width: 100%;
+    z-index: 9;
+}
