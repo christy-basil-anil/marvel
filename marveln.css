@@ -85,7 +85,7 @@ p{
     height:400;
     background-image:url(https://static1.srcdn.com/wordpress/wp-content/uploads/wm/2023/06/mcu-original-avengers-importance-ranked.jpg?q=70&fit=crop&w=1140&h=&dpr=1);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover,contain;
     background-position: 0% -80px;
 }
 
@@ -98,7 +98,7 @@ p{
     height:400;
     background-image:url(https://cdn.marvel.com/u/prod/marvel/i/mg/c/80/567065cfebad5/clean.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover,contain;
     background-position: 0% -660px;
 }
 
